@@ -5,7 +5,7 @@
 
 
 # Set the base image to Ubuntu
-FROM ubuntu
+FROM nginxinc/nginx-unprivileged 
 
 # File Author / Maintainer
 MAINTAINER Karthik Gaekwad
